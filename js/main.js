@@ -8,8 +8,7 @@ function findMissing(arr1, arr2){
        } else{
            return arr1[i]
        }
-        
     } 
 }
 
-console.log(findMissing([1,2,2,3],[1,2,3]))
+console.log(findMissing([1,7,2,2,3,7],[1,2,3,7,67]))
